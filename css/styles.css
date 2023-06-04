@@ -1,0 +1,151 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+
+h1{
+    margin: 25% 1% 5% 1%;
+    color: azure;
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height:1.5;
+}
+h3{
+    font-family: 'Montserrat-black', sans-serif ;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container{
+    padding: 3% 5% 7%;
+}
+
+hr{
+margin-left: 10px;
+margin-top:1px;
+border-top:1px solid white transparent;
+border-width: 3px;
+width:13.5%;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+
+.nav-item{
+    font-size: 1.2rem;
+    padding: 0 18px;
+    
+   
+}
+.iphimg{
+    transform: rotate(25deg);
+    width: 75%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 15%;
+    position: absolute;
+}
+@media (max-width: 1028px){
+    .iphimg{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#features{
+    background-color: #fff;
+    padding: 7% 5%;
+    position: relative;
+    
+}
+.slayer-icons{
+    color: #ff4c68; 
+    margin-bottom: 2rem;
+}
+.s-column{
+    text-align: center;
+}
+
+
+
+.slayer-icons:hover{
+    color: crimson;
+}
+#testimonials{
+    text-align: center;
+    background-color:#ff4c68 ;
+}
+h2{
+    font-family: 'Montserrat-black', sans-serif ;
+    font-weight: bold;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 200%;
+    margin: 2%;
+}
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.press-img{
+    width: 12%;
+    margin: 0px 23px;
+}
+.carousel-item{
+    padding: 7% 15%; 
+    text-align: center;
+}
+.pricing-font{
+    color: black;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px ;
+    
+}
+.ctafont{
+    font-family: 'Montserrat-black', sans-serif ;
+    font-weight: bold;
+    color: #fff;
+    font-size: 4.5rem;
+    margin: auto 50px;
+}
+.ctabuttons{
+    margin: 40px 20px;
+}
+#footer{
+    background-color: #fff;
+    padding: 70px;
+    text-align: center;
+}
+.footerfonts{
+    padding-inline:10px ;
+    margin-bottom: 20px;
+}
